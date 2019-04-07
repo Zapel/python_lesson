@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 def array_search(A, N, x):
-    # Поиск элемента. Вывод номера элемента
+    """ Поиск элемента. Вывод номера элемента """
     for k in range(N):
         if A[k] == x:
             return k
